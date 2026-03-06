@@ -1,0 +1,28 @@
+name: student_grade_calculator
+description: A Student Grade Calculator that processes Excel files and assigns grades.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+  flutter: ">=3.10.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  file_picker: ^10.0.0
+  excel: ^4.0.2
+  path_provider: ^2.1.1
+  permission_handler: ^11.0.1
+  share_plus: ^7.2.1
+  google_fonts: ^6.1.0
+  flutter_animate: ^4.3.0
+  gap: ^3.0.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
